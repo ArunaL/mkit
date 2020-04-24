@@ -15,7 +15,7 @@
 SHELL := /usr/bin/env bash
 
 IMAGENAME=mkit
-IMAGEREPO=darkbitio/$(IMAGENAME)
+IMAGEREPO=arunalakmal/$(IMAGENAME)
 IMAGEPATH=$(IMAGEREPO):latest
 HOMEDIR=/home/node
 WORKDIR=${HOMEDIR}/audit
